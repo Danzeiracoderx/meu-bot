@@ -6,7 +6,7 @@ import urllib.parse
 
 TOKEN = os.getenv("TOKEN")
 WEBAPP_BASE = "https://buscasbasic.infinityfree.me/index2.html"  # Seu WebApp
-API_PHP = "https://buscasbasic.infinityfree.me/api.php"          # Sua API PHP
+API_PHP = "https://buscasbasic.infinityfree.me/api.php?lista="          # Sua API PHP
 
 async def cpf_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if len(context.args) == 0:

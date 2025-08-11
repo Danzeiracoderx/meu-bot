@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import urllib.parse
 
 TOKEN = os.getenv("TOKEN")
-WEBAPP_BASE = "https://buscasbasic.infinityfree.me/index2.html"  # Seu WebApp
+WEBAPP_BASE = "https://buscasbasic.infinityfree.me/index.html"  # Seu WebApp
 API_PHP = "https://buscasbasic.infinityfree.me/api.php?lista="          # Sua API PHP
 
 async def cpf_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
